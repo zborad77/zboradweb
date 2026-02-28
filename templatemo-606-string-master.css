@@ -1369,4 +1369,21 @@ footer {
 		gap: 1rem;
 		text-align: center;
 	}
+.nav-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 14px;
+  gap: 4px;
+}
+
+.nav-contact a {
+  color: #f5b942;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav-contact a:hover {
+  opacity: 0.8;
+}
 }
