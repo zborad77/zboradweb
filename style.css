@@ -64,13 +64,23 @@ ul {
 }
 
 .highlight {
-    background: linear-gradient(90deg, #c1121f, #d62828);
-    color: white;
-    text-align: center;
-    padding: 50px;
-    font-size: 24px;
-    font-weight: bold;
-    letter-spacing: 1px;
+  background: linear-gradient(90deg, #c1121f, #d62828);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.highlight p {
+  margin: 10px 0;
+}
+
+.highlight strong {
+  font-size: 26px;
+}
+
+.highlight a {
+  color: white;
+  text-decoration: none;
 }
 
 .footer {
