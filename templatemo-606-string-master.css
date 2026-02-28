@@ -1387,4 +1387,16 @@ footer {
   opacity: 0.7;
 }
 }
+nav .nav-contact a {
+  color: #f5b942 !important;
+  text-decoration: none !important;
+  font-weight: 600;
+}
+
+nav .nav-contact {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 14px;
+}
 
