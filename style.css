@@ -80,3 +80,7 @@ ul {
     padding: 35px;
     font-size: 14px;
 }
+.center-text {
+  max-width: 1100px;
+  margin: 40px auto 0 auto;
+}
