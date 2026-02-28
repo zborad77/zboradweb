@@ -1371,19 +1371,20 @@ footer {
 	}
 .nav-contact {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  gap: 20px;
+  align-items: center;
   font-size: 14px;
-  gap: 4px;
 }
 
 .nav-contact a {
   color: #f5b942;
   text-decoration: none;
   font-weight: 600;
+  transition: 0.2s;
 }
 
 .nav-contact a:hover {
-  opacity: 0.8;
+  opacity: 0.7;
 }
 }
+
