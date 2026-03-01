@@ -20,7 +20,6 @@ https://templatemo.com/tm-606-string-master
     --accent: #CF9B36;
     --accent-light: #DFAE4F;
     --accent-dark: #A87412;
-}
 	--text-primary: #fafafa;
 	--text-secondary: #a3a3a3;
 	--text-muted: #737373;
@@ -86,7 +85,7 @@ nav {
 }
 
 .nav-links a {
-	color: #E3B04B;
+	color: var(--accent);
 	text-decoration: none;
 	font-size: 1.13rem;
 	font-weight: 600;
@@ -199,7 +198,7 @@ nav {
 }
 
 .btn-primary {
-  background: #f5b942;
+  background: var(--accent);
   color: #000;
   font-weight: 700;
   border-radius: 6px;
@@ -240,7 +239,7 @@ nav {
 .stat-value {
   font-size: 24px;
   font-weight: 500;
-  color: #E3B04B;
+  color: var(--accent);
 }
 
 .stat-label {
@@ -1374,7 +1373,7 @@ footer {
 }
 
 .nav-contact a {
-  color: #f5b942;
+  color: var(--accent) !important;
   text-decoration: none;
   font-weight: 600;
   transition: 0.2s;
@@ -1385,7 +1384,7 @@ footer {
 }
 }
 nav .nav-contact a {
-  color: #f5b942 !important;
+  color: var(--accent) !important;
   text-decoration: none !important;
   font-weight: 600;
 }
@@ -1403,8 +1402,9 @@ nav .nav-contact {
   max-width: 900px;
   margin: 0 auto 60px auto;
   text-align: center;
-  color: #E3B04B;
+  color: var(--accent);
 }
+
 
 
 
