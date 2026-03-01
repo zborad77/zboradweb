@@ -1394,5 +1394,14 @@ nav .nav-contact {
   align-items: center;
   font-size: 14px;
 }
+.services-intro {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.4;
+  max-width: 900px;
+  margin: 0 auto 60px auto;
+  text-align: center;
+  color: #E3B04B;
+}
 
 
