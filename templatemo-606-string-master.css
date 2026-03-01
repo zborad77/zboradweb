@@ -243,8 +243,8 @@ nav {
 }
 
 .stat-label {
+  font-size: 13px;
   opacity: 0.6;
-  font-size: 14px;
 }
 
 /* Guitar Section */
@@ -1404,6 +1404,7 @@ nav .nav-contact {
   text-align: center;
   color: #E3B04B;
 }
+
 
 
 
