@@ -178,6 +178,7 @@ nav {
 	line-height: 1.1;
 	margin-bottom: 1.5rem;
 	letter-spacing: -0.02em;
+	color: var(--text-primary);
 }
 
 .hero h1 .highlight {
@@ -1404,6 +1405,7 @@ nav .nav-contact {
   text-align: center;
   color: #E3B04B;
 }
+
 
 
 
