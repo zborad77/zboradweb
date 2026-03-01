@@ -17,9 +17,10 @@ https://templatemo.com/tm-606-string-master
 	--bg-dark: #0d0d0d;
 	--bg-card: #1a1a1a;
 	--bg-elevated: #242424;
-	--accent: #D9A441;
-    --accent-light: #E6B85C;
-    --accent-dark: #B8841F;
+    --accent: #CF9B36;
+    --accent-light: #DFAE4F;
+    --accent-dark: #A87412;
+}
 	--text-primary: #fafafa;
 	--text-secondary: #a3a3a3;
 	--text-muted: #737373;
@@ -1403,6 +1404,7 @@ nav .nav-contact {
   text-align: center;
   color: #E3B04B;
 }
+
 
 
 
