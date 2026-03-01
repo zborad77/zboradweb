@@ -236,14 +236,14 @@ nav {
 }
 
 .stat-value {
-	font-size: 2rem;
-	font-weight: 700;
-	color: var(--text-primary);
+  font-size: 32px;
+  font-weight: 600;
+  color: #E3B04B;
 }
 
 .stat-label {
-	font-size: 0.85rem;
-	color: var(--text-muted);
+  opacity: 0.6;
+  font-size: 14px;
 }
 
 /* Guitar Section */
@@ -1403,6 +1403,7 @@ nav .nav-contact {
   text-align: center;
   color: #E3B04B;
 }
+
 
 
 
