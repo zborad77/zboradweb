@@ -237,8 +237,8 @@ nav {
 }
 
 .stat-value {
-  font-size: 32px;
-  font-weight: 600;
+  font-size: 24px;
+  font-weight: 500;
   color: #E3B04B;
 }
 
@@ -1404,6 +1404,7 @@ nav .nav-contact {
   text-align: center;
   color: #E3B04B;
 }
+
 
 
 
