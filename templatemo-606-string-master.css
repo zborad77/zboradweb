@@ -1205,6 +1205,7 @@ footer {
 		text-align: center;
 }
 		.hero-image {
+		
   justify-content: center;
   margin-top: 40px;
 }
@@ -1449,6 +1450,9 @@ nav .nav-contact {
   }
 }
 
+.features-grid {
+    grid-template-columns: repeat(3, 1fr);
+}
 
 
 
