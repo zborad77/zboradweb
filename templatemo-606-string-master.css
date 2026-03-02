@@ -1421,6 +1421,33 @@ nav .nav-contact {
   text-align: center;
   color: var(--accent);
 }
+/* HERO GRID LAYOUT */
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 60px;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-image {
+    margin-top: 40px;
+    text-align: center;
+  }
+}
 
 
 
