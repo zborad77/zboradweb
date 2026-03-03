@@ -1,202 +1,162 @@
-@charset "utf-8";
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZBORAD | Řemeslné práce nejen z lana</title>
 
-/* ===== RESET ===== */
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+  <link rel="stylesheet" href="templatemo-606-string-master.css">
+</head>
 
-:root {
-  --bg-dark: #0d0d0d;
-  --bg-card: #1a1a1a;
-  --accent: #CF9B36;
-  --accent-light: #DFAE4F;
-  --text-primary: #fafafa;
-  --text-secondary: #a3a3a3;
-  --border: #2e2e2e;
-}
+<body>
 
-body {
-  font-family: 'Space Grotesk', sans-serif;
-  background: var(--bg-dark);
-  color: var(--text-primary);
-  line-height: 1.6;
-}
+<!-- NAVIGACE -->
+<nav>
+  <div class="nav-container">
+    <a href="index.html" class="logo">
+      <img src="LOGO_01.png" alt="ZBORAD logo">
+    </a>
 
-/* ===== NAVIGATION ===== */
+    <ul class="nav-links">
+      <li><a href="#hero">Úvod</a></li>
+      <li><a href="#sluzby">Služby</a></li>
+      <li><a href="#reference">Reference</a></li>
+      <li><a href="#kontakt">Kontakt</a></li>
+    </ul>
 
-nav {
-  position: fixed;
-  width: 100%;
-  background: rgba(13,13,13,0.95);
-  border-bottom: 1px solid var(--border);
-  z-index: 1000;
-}
+    <div class="nav-contact">
+      <a href="tel:+420721067993">+420 721 067 993</a>
+      <a href="mailto:info@zborad.cz">info@zborad.cz</a>
+    </div>
+  </div>
+</nav>
 
-.nav-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
+<!-- HERO SEKCE -->
+<section class="hero" id="hero">
+  <div class="hero-container">
 
-.logo {
-  display: flex;
-  align-items: center;
-  height: 100px;
-}
+    <div class="hero-content">
 
-.logo img {
-  height: 82px;
-  width: auto;
-  display: block;
-}
+      <div class="hero-badge">
+        <span>●</span> Nonstop havarijní pohotovost 24/7
+      </div>
 
-.nav-links {
-  display: flex;
-  gap: 2rem;
-  list-style: none;
-}
+      <h1>
+        Profesionální <span class="highlight">řemeslné práce</span><br>
+        nejen z lana
+      </h1>
 
-.nav-links a {
-  color: var(--accent);
-  text-decoration: none;
-  font-weight: 600;
-}
+      <p class="hero-description">
+        Provádíme řemeslné práce nejen z lana. Zejména čištění a ochranu fasád,
+        sítě proti ptákům, hydroizolace, opravy, montáže, nátěry, klempířské práce.
+      </p>
 
-.nav-links a:hover {
-  color: var(--accent-light);
-}
+      <div class="hero-buttons">
+        <a href="#" class="btn-primary">Nezávazná poptávka →</a>
+        <a href="#sluzby" class="btn-secondary">Naše služby</a>
+      </div>
 
-.nav-contact {
-  display: flex;
-  gap: 20px;
-  font-size: 14px;
-}
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-value">15+</div>
+          <div class="stat-label">let zkušeností</div>
+        </div>
 
-.nav-contact a {
-  color: var(--accent);
-  text-decoration: none;
-  font-weight: 600;
-}
+        <div class="stat">
+          <div class="stat-value">300+</div>
+          <div class="stat-label">realizovaných zakázek</div>
+        </div>
 
-/* ===== HERO ===== */
+        <div class="stat">
+          <div class="stat-value">24/7</div>
+          <div class="stat-label">havarijní pohotovost</div>
+        </div>
+      </div>
 
-.hero {
-  padding: 8rem 20px 4rem;
-}
+    </div>
 
-.hero-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
+  </div>
+</section>
 
-.hero h1 {
-  font-size: clamp(2.5rem, 5vw, 4rem);
-  line-height: 1.1;
-  margin-bottom: 1.5rem;
-}
+<!-- SLUŽBY -->
+<section class="features" id="sluzby">
+  <div class="section-container">
 
-.hero .highlight {
-  color: var(--accent);
-}
+    <div class="section-header">
+      <p>
+        Poskytujeme profesionální přístup pro majitele a správce nemovitostí.<br>
+        Práce provádíme jak v exteriéru tak interiéru.<br>
+        Vaše spokojenost je naší prioritou.
+      </p>
+    </div>
 
-.hero-description {
-  color: var(--text-secondary);
-  margin-bottom: 2rem;
-  max-width: 500px;
-}
+    <div class="features-grid">
 
-.hero-buttons {
-  display: flex;
-  gap: 1rem;
-  margin-bottom: 3rem;
-}
+      <div class="feature-card">
+        <div class="feature-icon">★</div>
+        <h3>Čištění fasád</h3>
+        <p>Odborné čištění a ochrana fasád za pomoci horolezeckých technik.</p>
+      </div>
 
-.btn-primary {
-  background: var(--accent);
-  color: #000;
-  padding: 12px 24px;
-  font-weight: 700;
-  border-radius: 6px;
-  text-decoration: none;
-}
+      <div class="feature-card">
+        <div class="feature-icon">★</div>
+        <h3>Sítě proti ptákům</h3>
+        <p>Montáž ochranných sítí zejména proti ptactvu.</p>
+      </div>
 
-.btn-secondary {
-  border: 1px solid var(--border);
-  padding: 12px 24px;
-  border-radius: 6px;
-  text-decoration: none;
-  color: var(--text-primary);
-}
+      <div class="feature-card">
+        <div class="feature-icon">★</div>
+        <h3>Hydroizolace</h3>
+        <p>Opravy a aplikace hydroizolačních systémů.</p>
+      </div>
 
-.hero-stats {
-  display: flex;
-  gap: 3rem;
-}
+      <div class="feature-card">
+        <div class="feature-icon">★</div>
+        <h3>Montážní práce</h3>
+        <p>Instalace konstrukcí a technických prvků ve výškách.</p>
+      </div>
 
-.stat-value {
-  font-size: 24px;
-  color: var(--accent);
-}
+      <div class="feature-card">
+        <div class="feature-icon">★</div>
+        <h3>Klempířské práce</h3>
+        <p>Opravy okapů, svodů, oplechování a střešních prvků.</p>
+      </div>
 
-/* ===== SLUŽBY ===== */
+      <div class="feature-card">
+        <div class="feature-icon">★</div>
+        <h3>Nátěry a opravy</h3>
+        <p>Nátěry a opravy konstrukcí.</p>
+      </div>
 
-.features {
-  padding: 6rem 2rem;
-  background: var(--bg-card);
-}
+    </div>
+  </div>
+</section>
 
-.section-container {
-  max-width: 1200px;
-  padding: 0 20px;
-  margin: 0 auto;
-}
+<!-- FOOTER -->
+<footer>
+  <div class="footer-container">
 
-.section-header {
-  text-align: center;
-  margin-bottom: 4rem;
-}
+    <div class="footer-brand">
+      <div class="logo">
+        <div class="logo-icon">■</div>
+        ZBORAD
+      </div>
+      <p>
+        Profesionální řemeslné práce nejen z lana.
+        Specializujeme se na výškové práce, čištění fasád a technické montáže.
+      </p>
+    </div>
 
-.section-header p {
-  font-size: 1.6rem;
-  font-weight: 500;
-  line-height: 1.7;
-  max-width: 1000px;
-  margin: 0 auto 80px auto;
-  color: var(--text-primary);
-}
+    <div class="footer-bottom">
+      <span>© 2026 ZBORAD. Všechna práva vyhrazena.</span>
+    </div>
 
-.features-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-}
+  </div>
+</footer>
 
-.feature-card {
-  background: #0f0f0f;
-  border: 1px solid rgba(255,255,255,0.06);
-  border-radius: 18px;
-  padding: 40px;
-  transition: 0.3s ease;
-}
-
-.feature-card:hover {
-  border-color: var(--accent);
-  transform: translateY(-6px);
-}
-
-.feature-icon {
-  width: 48px;
-  height: 48px;
-  border-radius: 12px;
-  background: #1a1a1a;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--accent);
-  margin-bottom: 20px;
-  font-size: 20px;
-}
+</body>
+</html>
