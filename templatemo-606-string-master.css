@@ -44,14 +44,16 @@ nav {
   align-items: center;
 }
 
-.logo img {
-  height: 55px;
-  width: auto;
-  display: block;
-}
 .logo {
   display: flex;
   align-items: center;
+  height: 70px;
+}
+
+.logo img {
+  height: 48px;
+  width: auto;
+  display: block;
 }
 .nav-links {
   display: flex;
@@ -245,6 +247,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
