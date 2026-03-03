@@ -36,12 +36,9 @@ nav {
 }
 
 .nav-container {
-  max-width: 1400px;
-  margin: auto;
-  padding: 1rem 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .logo {
@@ -51,7 +48,7 @@ nav {
 }
 
 .logo img {
-  height: 90px;    /* výrazné, ale ne přehnané */
+  height: 82px;    /* výrazné, ale ne přehnané */
   width: auto;
   display: block;
 }
@@ -91,18 +88,11 @@ nav {
 }
 
 .hero-container {
-  max-width: 1400px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 60px;
-  align-items: center;
-}
-header .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-}
+ }
+
 .hero h1 {
   font-size: clamp(2.5rem, 5vw, 4rem);
   line-height: 1.1;
@@ -160,9 +150,9 @@ header .container {
 }
 
 .section-container {
-  max-width: 1500px;
-  padding: 0 40px;
-  margin: auto;
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
 .section-header {
@@ -251,6 +241,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
