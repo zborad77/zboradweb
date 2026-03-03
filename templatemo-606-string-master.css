@@ -29,65 +29,7 @@ body {
 
 /* ===== NAVIGATION ===== */
 
-nav {
-  position: fixed;
-  width: 100%;
-  background: rgba(13,13,13,0.96);
-  border-bottom: 1px solid var(--border);
-  z-index: 1000;
-}
 
-.nav-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-  height: 100px;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-}
-
-.logo img {
-  height: 82px;
-  width: auto;
-  display: block;
-}
-
-/* MENU */
-.nav-links {
-  display: flex;
-  gap: 2rem;
-  list-style: none;
-}
-
-.nav-links a {
-  color: var(--accent);
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.nav-links a:hover {
-  color: var(--accent-light);
-}
-
-/* KONTAKT */
-.nav-contact {
-  display: flex;
-  gap: 20px;
-  font-size: 14px;
-}
-
-.nav-contact a {
-  color: var(--accent);
-  text-decoration: none;
-  font-weight: 600;
-}
 
 /* ===== HERO ===== */
 
@@ -249,6 +191,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
