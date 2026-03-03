@@ -44,13 +44,15 @@ nav {
   align-items: center;
 }
 
-.logo {
-  font-weight: 700;
-  font-size: 1.4rem;
-  text-decoration: none;
-  color: var(--text-primary);
+.logo img {
+  height: 55px;
+  width: auto;
+  display: block;
 }
-
+.logo {
+  display: flex;
+  align-items: center;
+}
 .nav-links {
   display: flex;
   gap: 2rem;
@@ -243,5 +245,6 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 
 
