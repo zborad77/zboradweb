@@ -98,7 +98,11 @@ nav {
   gap: 60px;
   align-items: center;
 }
-
+header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
 .hero h1 {
   font-size: clamp(2.5rem, 5vw, 4rem);
   line-height: 1.1;
@@ -247,6 +251,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
