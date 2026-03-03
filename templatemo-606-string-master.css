@@ -47,11 +47,11 @@ nav {
 .logo {
   display: flex;
   align-items: center;
-  height: 70px;
+  height: 90px; /* vyšší navbar */
 }
 
 .logo img {
-  height: 48px;
+  height: 70px;  /* větší logo */
   width: auto;
   display: block;
 }
@@ -247,6 +247,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
