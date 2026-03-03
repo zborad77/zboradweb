@@ -12,38 +12,38 @@ body {
 
 .container {
   max-width: 1200px;
-  margin: auto;
-  padding: 0 20px;
+  margin: 0 auto;
+  padding: 0 24px;
 }
 
 /* NAV */
 
-nav {
+.nav {
   position: fixed;
   width: 100%;
   background: rgba(13,13,13,0.95);
   border-bottom: 1px solid #222;
 }
 
-.nav-container {
+.nav-inner {
+  height: 110px;
   display: flex;
   align-items: center;
-  height: 110px;
 }
 
-.logo img {
+.nav-logo img {
   height: 90px;
 }
 
-.nav-links {
+.nav-menu {
+  list-style: none;
   display: flex;
   gap: 40px;
-  list-style: none;
   margin-left: 60px;
   margin-right: auto;
 }
 
-.nav-links a,
+.nav-menu a,
 .nav-contact a {
   color: #CF9B36;
   text-decoration: none;
@@ -108,23 +108,23 @@ nav {
 
 /* STATS */
 
-.stats {
+.hero-stats {
   display: flex;
   align-items: center;
   gap: 40px;
 }
 
-.stat .number {
+.stat-number {
   font-size: 28px;
   color: #CF9B36;
 }
 
-.stat .label {
-  color: #aaa;
+.stat-label {
   font-size: 14px;
+  color: #aaa;
 }
 
-.divider {
+.stat-divider {
   width: 1px;
   height: 40px;
   background: #333;
@@ -137,56 +137,32 @@ nav {
   background: linear-gradient(to bottom, #111, #1a1a1a);
 }
 
-.center {
+.services-intro {
   text-align: center;
-}
-
-.services-text {
   font-size: 1.4rem;
   margin-bottom: 80px;
 }
 
-.grid {
+.services-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
 }
 
-.card {
+.service-card {
   background: #0f0f0f;
   padding: 40px;
   border-radius: 20px;
   border: 1px solid #1f1f1f;
-  transition: 0.3s;
+  transition: 0.3s ease;
 }
 
-.card:hover {
+.service-card:hover {
   border-color: #CF9B36;
   transform: translateY(-6px);
 }
 
-.card p {
+.service-card p {
   color: #aaa;
   margin-top: 10px;
-}
-
-/* FOOTER */
-
-footer {
-  padding: 60px 0;
-  border-top: 1px solid #222;
-}
-
-.footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.footer-logo img {
-  height: 70px;
-}
-
-.footer-text {
-  color: #aaa;
 }
