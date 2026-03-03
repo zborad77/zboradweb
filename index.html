@@ -5,20 +5,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ZBORAD | Řemeslné práce nejen z lana</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<nav class="nav">
-  <div class="container nav-inner">
-
+<nav>
+  <div class="nav-container">
     <div class="logo">
       <img src="LOGO_01.png" alt="ZBORAD">
     </div>
 
-    <ul class="nav-menu">
+    <ul class="nav-links">
       <li><a href="#">Úvod</a></li>
       <li><a href="#">Služby</a></li>
       <li><a href="#">Reference</a></li>
@@ -29,14 +30,13 @@
       <a href="tel:+420721067993">+420 721 067 993</a>
       <a href="mailto:info@zborad.cz">info@zborad.cz</a>
     </div>
-
   </div>
 </nav>
 
 <section class="hero">
   <div class="container">
 
-    <p class="badge">● Nonstop havarijní pohotovost 24/7</p>
+    <p class="hero-badge">● Nonstop havarijní pohotovost 24/7</p>
 
     <h1>
       Profesionální <span class="gold">řemeslné práce</span><br>
@@ -48,25 +48,29 @@
       sítě proti ptákům, hydroizolace, opravy, montáže, nátěry, klempířské práce.
     </p>
 
-    <div class="buttons">
+    <div class="hero-buttons">
       <a href="#" class="btn-primary">Nezávazná poptávka →</a>
-      <a href="#" class="btn-secondary">Naše služby</a>
+      <a href="#" class="btn-outline">Naše služby</a>
     </div>
 
     <div class="stats">
-      <div>
-        <div class="stat-number">15+</div>
-        <div class="stat-label">let zkušeností</div>
+      <div class="stat">
+        <div class="number">15+</div>
+        <div class="label">let zkušeností</div>
       </div>
 
-      <div>
-        <div class="stat-number">300+</div>
-        <div class="stat-label">realizovaných zakázek</div>
+      <div class="divider"></div>
+
+      <div class="stat">
+        <div class="number">300+</div>
+        <div class="label">realizovaných zakázek</div>
       </div>
 
-      <div>
-        <div class="stat-number">24/7</div>
-        <div class="stat-label">havarijní pohotovost</div>
+      <div class="divider"></div>
+
+      <div class="stat">
+        <div class="number">24/7</div>
+        <div class="label">havarijní pohotovost</div>
       </div>
     </div>
 
@@ -74,13 +78,13 @@
 </section>
 
 <section class="services">
-  <div class="container">
+  <div class="container center">
 
-    <div class="services-intro">
+    <p class="services-text">
       Poskytujeme profesionální přístup pro majitele a správce nemovitostí.<br>
       Práce provádíme jak v exteriéru tak interiéru.<br>
       Vaše spokojenost je naší prioritou.
-    </div>
+    </p>
 
     <div class="grid">
 
@@ -115,9 +119,21 @@
       </div>
 
     </div>
-
   </div>
 </section>
+
+<footer>
+  <div class="container footer">
+    <div class="footer-logo">
+      <img src="LOGO_01.png" alt="">
+    </div>
+
+    <div class="footer-text">
+      Profesionální řemeslné práce nejen z lana.<br>
+      Specializujeme se na výškové práce, čištění fasád a technické montáže.
+    </div>
+  </div>
+</footer>
 
 </body>
 </html>
