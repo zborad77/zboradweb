@@ -24,7 +24,14 @@ body {
   color: var(--text-primary);
   line-height: 1.6;
 }
-
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 110px;   /* lehce vyšší navbar */
+  display: flex;
+  align-items: center;
+}
 /* ===== NAVIGATION ===== */
 
 /* ===== NAVIGATION ===== */
@@ -191,6 +198,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
