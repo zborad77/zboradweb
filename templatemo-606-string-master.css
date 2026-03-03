@@ -169,10 +169,12 @@ nav {
 }
 
 .section-header p {
-  color: var(--text-secondary);
-  font-size: 1.1rem;
-  max-width: 700px;
-  margin: auto;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.7;
+  max-width: 1000px;
+  margin: 0 auto 80px auto;
+  color: var(--text-primary);
 }
 
 .features-grid {
@@ -241,4 +243,5 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 
