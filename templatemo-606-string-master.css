@@ -46,7 +46,7 @@ nav {
 
 .logo {
   display: flex;
-  align-items: center;
+  align-items: left;
   text-decoration: none;
 }
 
@@ -54,6 +54,7 @@ nav {
   height: 150px;   /* uprav dle potřeby */
   width: auto;
   display: block;
+}
 }
 
 .nav-links {
@@ -264,6 +265,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
