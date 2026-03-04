@@ -41,8 +41,9 @@ nav {
 .nav-container {
   max-width: 1400px;
   margin: auto;
-  padding: 0 2rem;
+  padding: 1rem 2rem;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -65,11 +66,9 @@ nav {
 }
 
 .nav-links {
-  margin-left: 40px;
   display: flex;
   gap: 2rem;
   list-style: none;
-  font-size: 150%;
 }
 
 .nav-links a:hover {
@@ -77,10 +76,9 @@ nav {
 }
 
 .nav-contact {
-  margin-left: auto;
   display: flex;
   gap: 20px;
-  font-size: 150%;
+  font-size: 14px;
 }
 
 .nav-contact a {
@@ -269,6 +267,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
