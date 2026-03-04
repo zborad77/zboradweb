@@ -224,3 +224,38 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+/* ===== SLUŽBY 3 SLOUPCE ===== */
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.feature-card {
+  background: #0f0f0f;
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 16px;
+  padding: 30px;
+  transition: 0.3s ease;
+}
+
+.feature-card:hover {
+  border-color: #d4a24c;
+  transform: translateY(-5px);
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobil */
+@media (max-width: 600px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+}
