@@ -54,7 +54,6 @@ nav {
   height: 120px;   /* uprav dle potřeby */
   width: auto;
   display: block;
-
 }
 
 .nav-links {
@@ -265,6 +264,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
