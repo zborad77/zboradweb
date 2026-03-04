@@ -46,7 +46,7 @@ nav {
 
 .logo {
   display: flex;
-  align-items: center;
+  align-items: left;
   text-decoration: none;
 }
 
@@ -264,6 +264,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
