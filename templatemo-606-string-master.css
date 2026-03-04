@@ -30,23 +30,20 @@ body {
 nav {
   position: fixed;
   width: 100%;
-  height: 110px;              /* nastav pevnou výšku */
+  height: 70px;
   background: rgba(13,13,13,0.95);
   border-bottom: 1px solid var(--border);
   z-index: 1000;
   display: flex;
-  align-items: center;       /* vertikální centrování */
+  align-items: center;
 }
-
 .nav-container {
   max-width: 1400px;
   margin: auto;
-  padding: 1rem 2rem;
+  padding: 0 2rem;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
-
 .logo {
   display: flex;
   align-items: center;
@@ -69,8 +66,8 @@ nav {
   display: flex;
   gap: 2rem;
   list-style: none;
+  margin-left: 40px;
 }
-
 .nav-links a:hover {
   color: var(--accent-light);
 }
@@ -79,6 +76,7 @@ nav {
   display: flex;
   gap: 20px;
   font-size: 14px;
+  margin-left: auto;
 }
 
 .nav-contact a {
@@ -267,6 +265,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
