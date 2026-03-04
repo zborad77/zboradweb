@@ -51,7 +51,7 @@ nav {
 }
 
 .logo img {
-  height: 120px;   /* uprav dle potřeby */
+  height: 190px;   /* uprav dle potřeby */
   width: auto;
   display: block;
 }
@@ -264,5 +264,6 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 
 
