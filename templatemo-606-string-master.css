@@ -321,6 +321,21 @@ transform:scale(1.6);
 z-index:10;
 position:relative;
 }
+
+.reference-list{
+margin-top:120px;
+}
+
+.reference-link{
+color:#E7CB55;
+text-decoration:none;
+font-weight:600;
+font-size:18px;
+}
+
+.reference-link:hover{
+color:#DFAE4F;
+}
 /* Tablet */
 @media (max-width: 992px) {
   .features-grid {
@@ -334,6 +349,7 @@ position:relative;
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
