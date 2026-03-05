@@ -54,7 +54,7 @@ nav {
 }
 
 .logo img {
-  height: clamp(40px, 6vw, 150px);
+  height: 150px;
   width: auto;
   display: block;
 }
@@ -275,6 +275,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
