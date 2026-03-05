@@ -301,6 +301,10 @@ footer {
 grid-template-columns:2fr 1fr;
 }
 
+.natery-card .two-images{
+grid-template-columns:2fr 1fr;
+}
+
 /* Tablet */
 @media (max-width: 992px) {
   .features-grid {
@@ -314,6 +318,7 @@ grid-template-columns:2fr 1fr;
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
