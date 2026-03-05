@@ -160,7 +160,7 @@ nav {
 /* ===== SLUŽBY ===== */
 
 .features {
-  padding: 3rem 2rem;
+  padding-top: 140px;
   background: var(--bg-card);
 }
 
@@ -367,6 +367,7 @@ color:#DFAE4F;
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
