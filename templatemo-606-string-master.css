@@ -147,11 +147,11 @@ nav {
   gap: 3rem;
 }
 .hero-stats div {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .stat-value {
-  font-size: 24px;
+  font-size: 28px;
   color: var(--accent);
 }
 
@@ -272,6 +272,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
