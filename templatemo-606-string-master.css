@@ -40,7 +40,7 @@ nav {
 .nav-container {
   width: 100%;
   margin: auto;
- padding-bottom: 2px;
+ padding-bottom: 3px;
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
@@ -262,6 +262,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
