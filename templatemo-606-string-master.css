@@ -336,6 +336,24 @@ font-size:18px;
 .reference-link:hover{
 color:#DFAE4F;
 }
+
+.reference-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.reference-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 14px;
+    transition: transform 0.3s ease;
+}
+
+.reference-gallery img:hover {
+    transform: scale(1.05);
+}
 /* Tablet */
 @media (max-width: 992px) {
   .features-grid {
@@ -349,6 +367,7 @@ color:#DFAE4F;
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
