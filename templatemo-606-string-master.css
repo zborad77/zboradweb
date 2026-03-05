@@ -306,10 +306,10 @@ grid-template-columns:2fr 1fr;
 }
 
 a[href="reference.html#natery"] .card-image img{
-transform: scale(0.7);
-object-fit: contain;
+width:70%;
+height:70%;
+object-fit:cover;
 }
-
 /* Tablet */
 @media (max-width: 992px) {
   .features-grid {
@@ -323,6 +323,7 @@ object-fit: contain;
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
