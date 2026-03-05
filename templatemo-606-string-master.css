@@ -52,7 +52,7 @@ nav {
 }
 
 .logo img {
-  height: 90px;
+  height: 150px;
   width: auto;
   display: block;
 }
@@ -262,6 +262,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
