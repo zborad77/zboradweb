@@ -297,14 +297,6 @@ footer {
   transform: translateY(-5px);
 }
 
-.natery-images{
-grid-template-columns:2fr 1fr;
-}
-
-.natery-card .two-images{
-grid-template-columns:2fr 1fr;
-}
-
 a[href="reference.html#natery"] 
 
 .card-image img{
@@ -325,6 +317,7 @@ object-fit:cover;
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
