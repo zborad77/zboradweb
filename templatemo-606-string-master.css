@@ -199,6 +199,9 @@ nav {
   padding: 2rem;
   border-radius: 16px;
   transition: 0.3s;
+  text-decoration:none;
+color:inherit;
+display:block;
 }
 
 .feature-card:hover {
@@ -268,6 +271,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
