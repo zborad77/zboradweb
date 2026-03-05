@@ -54,7 +54,7 @@ nav {
 }
 
 .logo img {
-  height: 150px;
+  height: 140px;
   width: auto;
   display: block;
 }
@@ -73,7 +73,7 @@ nav {
   color: #ffffff;
   text-decoration: none;
   font-weight: 600;
-  font-size: clamp(12px, 1vw, 18px);
+  font-size: clamp(12px, 1vw, 28px);
 }
 
 .nav-contact {
@@ -86,7 +86,7 @@ nav {
   color: var(--accent);
   text-decoration: none;
   font-weight: 600;
-  font-size: clamp(12px, 1vw, 18px);
+  font-size: clamp(12px, 1vw, 28px);
 }
 
 /* ===== HERO ===== */
@@ -275,6 +275,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
