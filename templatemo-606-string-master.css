@@ -158,7 +158,7 @@ nav {
 /* ===== SLUŽBY ===== */
 
 .features {
-  padding: 6rem 2rem;
+  padding: 3rem 2rem;
   background: var(--bg-card);
 }
 
@@ -272,6 +272,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
