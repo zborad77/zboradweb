@@ -146,6 +146,9 @@ nav {
   display: flex;
   gap: 3rem;
 }
+.hero-stats div {
+  font-size: 12px;
+}
 
 .stat-value {
   font-size: 24px;
@@ -269,6 +272,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
