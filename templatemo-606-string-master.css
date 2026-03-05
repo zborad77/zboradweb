@@ -208,6 +208,7 @@ nav {
 
 .feature-card h3 {
   margin-bottom: 0.75rem;
+  color: var(--accent);
 }
 
 /* ===== FOOTER ===== */
@@ -277,6 +278,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
