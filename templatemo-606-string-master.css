@@ -160,8 +160,7 @@ nav {
 /* ===== SLUŽBY ===== */
 
 .features {
-  padding-top: 140px;
-  background: var(--bg-card);
+    background: var(--bg-card);
 }
 
 .section-container {
@@ -355,6 +354,10 @@ color:#DFAE4F;
 .reference-gallery img:hover {
     transform: scale(1.05);
 }
+
+.reference-page {
+    padding-top: 140px;
+}
 /* Tablet */
 @media (max-width: 992px) {
   .features-grid {
@@ -368,6 +371,7 @@ color:#DFAE4F;
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
