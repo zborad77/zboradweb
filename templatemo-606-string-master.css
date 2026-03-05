@@ -11,7 +11,7 @@
 :root {
   --bg-dark: #0d0d0d;
   --bg-card: #1a1a1a;
-  --accent: #CF9B36;
+  --accent: #B8962E;
   --accent-light: #DFAE4F;
   --text-primary: #fafafa;
   --text-secondary: #a3a3a3;
@@ -267,6 +267,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
