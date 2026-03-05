@@ -75,7 +75,7 @@ nav {
 
 .nav-contact {
   justify-self: end;
-  margin-right: 10px;
+  margin-right: 30px;
 }
 
 .nav-contact a {
@@ -264,6 +264,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
