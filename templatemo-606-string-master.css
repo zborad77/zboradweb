@@ -60,10 +60,6 @@ nav {
 
 .nav-links {
   justify-self: center;
-}
-
-
-.nav-links {
   display: flex;
   gap: 2rem;
   list-style: none;
@@ -71,6 +67,11 @@ nav {
 }
 .nav-links a:hover {
   color: var(--accent-light);
+}
+.nav-links a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .nav-contact {
@@ -264,6 +265,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
