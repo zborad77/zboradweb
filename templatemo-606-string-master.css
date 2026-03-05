@@ -30,7 +30,7 @@ body {
 nav {
   position: fixed;
   width: 100%;
-  height: clamp(80px, 8vw, 110px);
+  height: clamp(70px, 6vw, 110px);
   background: rgba(13,13,13,0.95);
   border-bottom: 1px solid var(--border);
   z-index: 1000;
@@ -54,7 +54,7 @@ nav {
 }
 
 .logo img {
-  height: 150px;
+  height: clamp(40px, 6vw, 150px);
   width: auto;
   display: block;
 }
@@ -73,7 +73,7 @@ nav {
   color: #ffffff;
   text-decoration: none;
   font-weight: 600;
-  font-size: 18px;
+  font-size: clamp(12px, 1vw, 18px);
 }
 
 .nav-contact {
@@ -86,7 +86,7 @@ nav {
   color: var(--accent);
   text-decoration: none;
   font-weight: 600;
-  font-size: 18px;
+  font-size: clamp(12px, 1vw, 18px);
 }
 
 /* ===== HERO ===== */
@@ -275,6 +275,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
