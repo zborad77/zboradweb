@@ -176,6 +176,7 @@ nav {
 
 .section-header p {
   color: var(--text-secondary);
+  white-space: pre-line;
 }
 
 .features-grid {
@@ -268,6 +269,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
