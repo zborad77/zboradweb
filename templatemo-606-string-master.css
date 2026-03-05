@@ -204,6 +204,7 @@ color:inherit;
 display:block;
   position: relative;
 overflow: hidden;
+  height:220px;
 }
 
 .feature-card:hover {
@@ -309,6 +310,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
