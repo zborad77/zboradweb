@@ -189,8 +189,8 @@ nav {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
+  margin-top: 60px;
   align-items: stretch;
-
 }
 
 .feature-card {
@@ -237,16 +237,10 @@ footer {
   .hero-container {
     grid-template-columns: 1fr;
     text-align: center;
-  }
-/* ===== SLUŽBY 3 SLOUPCE ===== */
-
-.features-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
-  margin-top: 60px;
-  justify-items: center;
+  }   
 }
+  
+/* ===== SLUŽBY 3 SLOUPCE ===== */
 
 .feature-card {
   background: #0f0f0f;
@@ -274,6 +268,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
