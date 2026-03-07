@@ -79,7 +79,7 @@ nav {
 .nav-contact {
   justify-self: end;
   margin-right: 30px;
-  gap: 40px;
+  gap: 100px;
 }
 
 .nav-contact a {
@@ -87,6 +87,14 @@ nav {
   text-decoration: none;
   font-weight: 600;
   font-size: clamp(16px, 1vw, 32px);
+}
+
+.nav-contact > span {
+  display: inline-block;
+  width: 1ch;
+  height: 1ch;
+  background: white;
+  vertical-align: middle;
 }
 
 /* ===== HERO ===== */
@@ -160,7 +168,7 @@ nav {
 /* ===== SLUŽBY ===== */
 
 .features {
-  padding: 120px 0;
+  padding: 60px 0;
     background: var(--bg-card);
   display: flex;
   flex-direction: column;
@@ -457,7 +465,7 @@ nav {
 .nav-contact {
   justify-self: end;
   margin-right: 30px;
-  gap: 40px;
+  gap: 100px;
 }
 
 .nav-contact a {
@@ -465,6 +473,14 @@ nav {
   text-decoration: none;
   font-weight: 600;
   font-size: clamp(16px, 1vw, 32px);
+}
+
+.nav-contact > span {
+  display: inline-block;
+  width: 1ch;
+  height: 1ch;
+  background: white;
+  vertical-align: middle;
 }
 
 /* ===== HERO ===== */
@@ -538,7 +554,7 @@ nav {
 /* ===== SLUŽBY ===== */
 
 .features {
-  padding: 120px 0;
+  padding: 60px 0;
     background: var(--bg-card);
   display: flex;
   flex-direction: column;
@@ -753,4 +769,5 @@ color:#DFAE4F;
     grid-template-columns: 1fr;
   }
 }
+
 
