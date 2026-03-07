@@ -162,6 +162,9 @@ nav {
 .features {
   padding: 120px 0;
     background: var(--bg-card);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .section-container {
@@ -188,9 +191,9 @@ nav {
 .features-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+  gap: 35px 30px;
   margin-top: 60px;
-  align-items: stretch;
+  align-items: center;
   grid-auto-rows: 1fr;
 }
 
@@ -205,7 +208,7 @@ color:inherit;
 display:block;
   position: relative;
 overflow: hidden;
-  height:220px;
+  height:170px;
 }
 
 .feature-card:hover {
@@ -339,8 +342,8 @@ color:#DFAE4F;
 
 .reference-gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px 30px;
     margin-top: 40px;
 }
 
@@ -537,6 +540,9 @@ nav {
 .features {
   padding: 120px 0;
     background: var(--bg-card);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .section-container {
@@ -563,9 +569,9 @@ nav {
 .features-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+  gap: 35px 30px;
   margin-top: 60px;
-  align-items: stretch;
+  align-items: center;
   grid-auto-rows: 1fr;
 }
 
@@ -580,7 +586,7 @@ color:inherit;
 display:block;
   position: relative;
 overflow: hidden;
-  height:220px;
+  height:170px;
 }
 
 .feature-card:hover {
@@ -714,8 +720,8 @@ color:#DFAE4F;
 
 .reference-gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px 30px;
     margin-top: 40px;
 }
 
@@ -747,3 +753,4 @@ color:#DFAE4F;
     grid-template-columns: 1fr;
   }
 }
+
