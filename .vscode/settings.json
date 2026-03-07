@@ -1,0 +1,9 @@
+{
+  "files.exclude": {
+    "**/images/**": true,
+    "**/*.png": true,
+    "**/*.jpg": true,
+    "**/*.jpeg": true,
+    "**/*.svg": true
+  }
+}
